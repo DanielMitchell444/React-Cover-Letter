@@ -1,0 +1,121 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-color: rgb(204, 204, 204);
+}
+
+.stuff{
+ background-color: black;
+ margin: 0;
+ height: 100px;
+}
+
+.heading{
+ text-align: center;
+ font-size: 30px;
+ color: white;
+}
+
+.section{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border: none;
+ text-align: center;
+ background-color: rgb(238, 238, 238);
+ width: 210mm;
+ padding: 1rem;
+}
+
+.inputs{
+ width: 100%;
+ margin-top: 20px;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ flex-direction: column;
+ gap: 1rem;
+}
+
+input[type = "text"]{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 0.5rem;
+ border-radius: 5px;
+}
+
+.Delete{
+ width: 90%;
+ border-radius: 5px;
+ padding: 0.5rem;
+ margin-top: 20px;
+}
+
+.Add{
+    width: 90%;
+    border-radius: 5px;
+    padding: 0.5rem;  
+}
+
+
+.resume{
+    width: 210mm;
+    height: 180mm;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+   }
+   
+   .resume header{
+    margin-top: 40px;
+   }
+   
+   .header{
+    padding: 0.5rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+   
+   
+   hr{
+    border: 1px solid black;
+    width: 750px;
+    margin-top: 20px;
+   }
+   
+   
+   .information{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+   }
+
+   .work{
+   display: flex;
+   margin-top: 20px;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   }
+
+   .body{
+   margin-top: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 60px;
+   }
+   
